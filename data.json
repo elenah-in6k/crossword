@@ -1,0 +1,22 @@
+{
+  "grid":[
+    ["a","p","p","l","e"],
+    ["*","*","*","i","*"],
+    ["*","*","*","m","*"],
+    ["*","*","*","e","*"]
+  ],
+  "info":[
+    {
+      "horizontalPosition": [0,4],
+      "verticalPosition": [0],
+      "question": "Is apple?",
+      "number": 1
+    },
+    {
+      "horizontalPosition": [3],
+      "verticalPosition": [0,3],
+      "question": "Is lime?",
+      "number": 1
+    }
+  ]
+}
