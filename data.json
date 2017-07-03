@@ -7,14 +7,18 @@
   ],
   "info":[
     {
-      "horizontalPosition": [0,4],
-      "verticalPosition": [0],
+      "firstSymbolPosition": 0,
+      "lastSymbolPosition": 4,
+      "wordPosition": 0,
+      "layout": "h",//v-vertical h-horizontal
       "question": "Is apple?",
       "number": 1
     },
     {
-      "horizontalPosition": [3],
-      "verticalPosition": [0,3],
+      "firstSymbolPosition": 0,
+      "lastSymbolPosition": 3,
+      "wordPosition": 3,
+      "layout": "h",
       "question": "Is lime?",
       "number": 1
     }
