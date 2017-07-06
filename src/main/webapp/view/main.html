@@ -1,0 +1,25 @@
+<div class="body" >
+    <div style="margin: auto">
+    <div id="crossword">
+        <table class="crossword">
+
+        <col width="50" ng-repeat="el in  getCrossword().grid[0] track by $index">
+
+        <tr ng-repeat="row in getCrossword().grid track by $index">
+            <td style="" class="" ng-repeat="el in row track by $index">
+                <div ng-if="el=='*'"></div>
+                <div class="crossword-symbol" ng-if="el!='*'">
+                    <input type="text" value="{{el}}">
+                </div>
+            </td>
+        </tr>
+        </table>
+    </div>
+    <div class="questions">
+        <div ng-repeat="q in getCrossword().info track by $index">
+           {{q.number}}. {{q.question}}
+        </div>
+    </div>
+    </div>
+</div>
+

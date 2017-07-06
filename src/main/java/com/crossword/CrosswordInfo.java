@@ -2,10 +2,14 @@ package com.crossword;
 
 import lombok.Getter;
 import lombok.Setter;
-
-import java.util.List;
-
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+@Document
 public class CrosswordInfo {
+
+    @Id
+    private @Getter @Setter Integer id;
+
     private @Getter @Setter Integer firstSymbolPosition;
 
     private @Getter @Setter Integer lastSymbolPosition;

@@ -24,7 +24,8 @@ repositories {
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-data-rest')
+	compile("org.springframework.boot:spring-boot-starter-data-mongodb")
 	compileOnly('org.projectlombok:lombok')
 //	testCompile('org.springframework.boot:spring-boot-starter-test')
-	testCompile('de.flapdoodle.embed:de.flapdoodle.embed.mongo')
+//	testCompile('de.flapdoodle.embed:de.flapdoodle.embed.mongo')
 }
