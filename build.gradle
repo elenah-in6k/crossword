@@ -19,13 +19,18 @@ sourceCompatibility = 1.8
 
 repositories {
 	mavenCentral()
+	maven {
+		url 'https://repo.spring.io/libs-milestone'
+	}
 }
-
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-data-rest')
 	compile("org.springframework.boot:spring-boot-starter-data-mongodb")
 	compile('de.flapdoodle.embed:de.flapdoodle.embed.mongo')
-	compileOnly('org.projectlombok:lombok')
+	compile 'org.springframework.security:spring-security-web:5.0.0.M4'
+    compile 'org.springframework.security:spring-security-config:5.0.0.M4'
+
+    compileOnly('org.projectlombok:lombok')
 //	testCompile('org.springframework.boot:spring-boot-starter-test')
 }

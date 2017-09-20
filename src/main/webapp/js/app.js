@@ -4,6 +4,10 @@ angular.module("myApp", ["ngRoute"])
         $routeProvider
             .when("/", {
                 templateUrl : "view/main.html"
-            });
+            })
+            .when("/login", {
+                templateUrl : "view/login.html"
+            })
+        ;
 
     });

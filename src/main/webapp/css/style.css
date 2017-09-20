@@ -19,7 +19,7 @@ text-align: center;
     border: #000000 1px solid;
 }
 
-input[type="text"] {
+#crossword input[type="text"] {
     font-size: 40px;
     width: 50px;
     border: none;
@@ -31,4 +31,59 @@ input[type="text"] {
 .questions{
     font-size: 40px;
     display: inline-block;
+}
+
+.login {
+    margin: 20px auto;
+    width: 300px;
+}
+.login-screen {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 5px
+}
+
+.login-form {
+    text-align: center;
+}
+.control-group {
+    margin-bottom: 10px;
+}
+
+.login input{
+    text-align: center;
+    background-color: #ECF0F1;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 0;
+    width: 250px;
+    transition: border .5s;
+}
+
+input:focus {
+    border: 2px solid #00bebe;
+    box-shadow: none;
+}
+
+.btn {
+    border: 2px solid transparent;
+    background: #00bebe;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 3px;
+    box-shadow: none;
+    transition: 0.25s;
+    display: block;
+    width: auto;
+    margin: 0 auto;
+}
+
+.btn:hover {
+    background-color: #009f9f;
 }
